@@ -1,0 +1,57 @@
+
+.form{
+	font-size: 0.18rem;
+	padding: 0.15rem 6px;
+	
+	input{
+			border:none;outline: none;
+			padding-left: 0.1rem;
+			font-size:0.16rem;
+		}
+	.login_input_name{
+		padding:0.2rem 0;
+		margin-top: 0.1rem;
+		border-bottom: 1px solid #cfcfcf;
+	}
+	.login_input_pass{
+		padding-top: .12rem;
+		padding-bottom: .35rem;
+			.icon-zhaohuimima{
+				font-size:0.25rem;
+			}
+
+	}
+
+}
+
+
+.login_link{
+	display: flex;
+	justify-content: space-around;
+	a{background: #FF0061;height: 0.4rem;width: 44%;cursor: pointer;line-height: 0.4rem;text-align: center;text-decoration: none;color: #fff;}
+}
+
+h4{
+	font-style: normal;
+	padding-top: .3rem;
+	font-weight: normal;
+	a{text-decoration: none;
+	color: #848484;
+	font-size:0.14rem;
+	}
+	
+}
+
+.otherAccount{border-bottom:1px solid #e5e5e5;line-height: .3rem;}
+.other_way_login{
+		padding-top: .3rem;
+		display: flex;
+		justify-content: space-around;
+	 a{text-decoration: none;
+		 border:1px solid #c3c1c1;
+		 padding:0.1rem .2rem;
+		 color: #848484;
+		 font-size:0.14rem;
+		 }
+}
+

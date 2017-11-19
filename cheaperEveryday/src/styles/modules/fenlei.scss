@@ -1,0 +1,90 @@
+
+.fenlei_header{
+    overflow: scroll;
+    //头部样式
+    .fixed__search{
+            position: fixed;
+            top: 0;
+            z-index: 10000;
+            width:100%
+        }
+
+    .today_header{
+        background:#f8285c;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        .header_logo{
+            width: 20%;
+            .logo{
+                display: block;
+                width: 100%;
+                img{
+                    height:0.31rem;
+                    margin-left: 0.1rem;
+                }
+            }
+        }
+        .header_search{
+            box-sizing: border-box;
+            width:2.45rem;
+            padding:0.01rem 0.05rem;
+            height:0.35rem;
+            background: #fff;
+            border-radius: 0.06rem;
+            .header_search_input{
+                margin-top: 0.035rem;
+                width:2.1rem;
+                height:0.28rem;
+                border:0;
+                outline: none;
+            }
+            .header_search_logo{
+                display: block;
+                color: #666;
+                img{
+                    position: absolute;
+                    width: 0.2rem;
+                    right: 0.60rem;
+                    top: 0.15rem;
+                }
+            }
+        }
+        .heder_sign{
+            display: block;
+            .heder_sign_logo{
+                background: url('http://m.zshpldbz.com/Source/static/wap/images/btn-mobile.png') no-repeat scroll;
+                background-position: 0.14rem -0.54rem;
+                background-size: cover;
+                display: inline-block;
+                height: 0;
+                overflow: hidden;
+                padding: 44px 0 0 0;
+                text-decoration: none;
+                width: 50px;
+                border-radius: 0;
+                border: 0;
+            }
+        }
+    }
+}
+.goods_tab_fenlei_list{
+    font-family:"微软雅黑",'arial';
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 30%;
+    li{
+    	list-style:none;
+    }
+}
+.goods_tab_fenlei_list>li{
+    width:19%;
+    text-align: center;
+    line-height: 63px;
+    list-style:none;
+    color:#333!important;
+    font-family:'微软雅黑','arial';
+}

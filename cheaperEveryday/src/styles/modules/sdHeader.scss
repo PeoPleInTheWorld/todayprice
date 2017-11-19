@@ -1,0 +1,21 @@
+html{font-size:100px;}
+.sdHeader{
+	display: flex;
+	justify-content: space-between;
+	padding:0 6px;
+	background:  #f8285c; 
+	height: 0.44rem;
+	font-size: 0.18rem;
+	align-items: center;
+	color: white;
+	span{
+		a{
+			i{
+				color:#fff;
+				font-size:0.2rem;
+			}
+		}
+	}
+
+
+}

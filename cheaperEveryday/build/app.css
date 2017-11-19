@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: 14px;
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+html, body, #app {
+  height: 100%; }
+
+.fullheight {
+  height: 100%;
+  position: relative; }
+
+.ele-nav {
+  height: 0.5rem;
+  background: #fff;
+  box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex; }
+  .ele-nav a {
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+    color: #A9A5A5; }
+    .ele-nav a i {
+      font-size: 0.25rem; }
+    .ele-nav a.active {
+      color: #0089dc; }
+
+.waimai {
+  overflow: scroll; }
+  .waimai .today_header {
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.045rem 0; }
+    .waimai .today_header .header_logo {
+      width: 20%; }
+      .waimai .today_header .header_logo .logo {
+        display: block;
+        width: 100%; }
+        .waimai .today_header .header_logo .logo img {
+          height: 0.31rem;
+          margin-left: 0.1rem; }
+    .waimai .today_header .header_search {
+      box-sizing: border-box;
+      width: 2.45rem;
+      padding: 0.01rem 0.05rem;
+      height: 0.35rem;
+      background: #fff;
+      border-radius: 0.05rem; }
+      .waimai .today_header .header_search .header_search_input {
+        margin-top: 0.035rem;
+        width: 2.1rem;
+        height: 0.28rem;
+        border: 0;
+        outline: none; }
+      .waimai .today_header .header_search .header_search_logo {
+        display: block;
+        color: #666; }
+        .waimai .today_header .header_search .header_search_logo img {
+          position: absolute;
+          width: 20px;
+          right: 6px;
+          top: 7px; }
+  .waimai .waimai-banner {
+    padding-bottom: 15px; }
+    .waimai .waimai-banner .swiper-pagination-bullet {
+      width: 3px;
+      height: 3px; }
+    .waimai .waimai-banner .swiper-slide {
+      display: flex;
+      flex-flow: row wrap; }
+    .waimai .waimai-banner .banner__info {
+      padding: 10px;
+      width: 25%;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 12px;
+      color: #444; }
+      .waimai .waimai-banner .banner__info img {
+        width: 0.45rem;
+        height: 0.45rem; }

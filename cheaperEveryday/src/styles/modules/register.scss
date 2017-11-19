@@ -1,0 +1,105 @@
+.fullheight{
+.LoginHeader{
+        width:100%;
+        height: 0.44rem;
+        display:flex;
+        justify-content: space-between;
+        flex-flow:row;
+        padding:0 6px;
+        background:  #f8285c; 
+        font-size: 0.18rem;
+        align-items: center;
+        color: white;
+        a{
+
+            display:block;
+            
+             .iconfont{
+                fontsize:.2rem;
+                fontstyle:normal;
+                text-decoration:none;
+                color:white; 
+             }
+            i{
+                fontstyle:normal;
+                display:block;
+                text-decoration:none;
+               
+            }
+        }
+
+    }
+}
+#form{
+
+            padding:0 6px;margin-top: .2rem;
+            .input_tips{
+            
+                    border:1px solid #fefefe;
+                    color:#f99;
+                    padding-left:0.4rem;
+            }
+
+            .register_form{
+                        p{
+                        input{
+                                border:none;
+                                outline: none;
+                                padding-left: 0.1rem;
+                                font-size:.16rem;
+                                }
+                           
+                       
+                            border-bottom: 1px solid #f1f1f1;
+                            padding-top: .15rem;
+                            padding-bottom: 0.1rem;
+                            padding-left: 0.2rem;
+                            i.iconfont.icon-gerenzhongxin {
+                                    font-style: normal;
+                                    font-size: 0.18rem;
+                                }
+                            i.iconfont.icon-zhaohuimima{
+                                font-style: normal;
+                                    font-size: 0.20rem;
+                            }
+
+
+
+                           
+
+                            }
+                            .register_agree i{font-style: normal;}
+
+           
+            }
+            .register_agree_wrap{
+                padding-left: .2rem;
+                font-size: .14rem;
+                padding-top: .2rem;
+
+           
+                a{color: #b2b2b2;}
+            }
+            
+            .register_btn_wrap{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-top: .5rem;
+                font-size: .18rem;
+
+                .register_btn{
+                    background: -webkit-linear-gradient(left,#FF0061,#FF0061);
+                    height: .4rem;
+                    line-height: .4rem;text-align: center;
+                    width: 80%;
+                    a{
+                        line-height: .4rem;
+                        text-decoration:none;
+                        text-align: center;
+                        color: #fff;
+                        }
+            }
+            }
+           
+}

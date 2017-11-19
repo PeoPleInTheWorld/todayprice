@@ -1,0 +1,61 @@
+.cart-empty {
+    height: 100%;
+    padding-top: 5.833em;
+    padding-bottom: 3.125em;
+    text-align: center;
+    width: 100%;
+
+    .cart-empty-img {
+	    background: url("http://img0.imgtn.bdimg.com/it/u=1199652874,1127369804&fm=27&gp=0.jpg") no-repeat center center;
+	    background-size: 100% 100%;
+	    width: 2rem;
+	    height: 2rem;
+	    text-align: center;
+	    margin: 0 auto;		
+	}
+
+	.cart-empty-tit {
+	    color: #666;
+	    font-size: 1.333em;
+	    padding-top:0.5rem;
+	}
+
+	.cart-empty-subtit {
+	    color: #bdbdbd;
+	    padding-top: 0.2rem;
+	    font-size: 1em;
+	}
+
+	.cart-empty-link {
+	    margin-top: 4.167em;
+
+	    a {
+		    width: 8.333em;
+		    height: 2.708em;
+		    line-height: 2.708em;
+		    text-align: center;
+		    color: #fff;
+		    font-size: 1.042em;
+		    background-color: #f21515;
+		    border-radius: .333em;
+		    display: block;
+		    margin: 0 auto;
+		}
+
+		
+
+	}
+
+}
+
+.clearfix {
+    zoom: 1;
+    clear: both;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+    background: 0 0;
+    -webkit-tap-highlight-color: transparent;
+}
